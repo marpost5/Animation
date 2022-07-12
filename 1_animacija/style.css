@@ -1,0 +1,117 @@
+/*-------------------------------------------------------------------------
+
+br.Indeks, Ime i Prezime  
+
+----------------------------------------------------------------------------*/
+#container{
+    background-image: url("img/containerbackground.gif");
+    background-repeat: repeat-y ;
+    position: relative;
+    font-size: 11px;
+    font-family: Verdana,Arial,Serif;
+
+}
+#pageHeader{
+    background-image: url("img/top.gif");
+    background-repeat: repeat-y;
+    height: 332px;
+    margin-left: 29px;
+}
+#pageHeader h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 330px ;
+}
+#quickSummary{
+    background-image: url("img/summary.gif");
+    background-repeat: repeat-y;
+    height: 46px;
+    margin-left: 435px;
+}
+#quickSummary .p1{
+    position: absolute;
+    margin-top: 60px;
+    width: 11%;
+    margin-left: 17px ;
+    text-align: initial;
+
+}
+#preamble{
+    margin-left: 60px;
+    margin-top: -59px;
+}
+#preamble .p1{
+    width: 24%;
+}
+#preamble h3{
+    background-image: url("img/title1.gif");
+    background-repeat: repeat-y;
+    height: 46px;
+    margin-left: -23px;
+}
+#explanation{
+    margin-left: 60px;
+}
+#explanation .p1{
+    width: 24%;
+}
+#explanation h3{
+    background-image: url("img/title2.gif");
+    background-repeat: repeat-y;
+    height: 46px;
+    margin-left: -23px;
+}
+#participation{
+    margin-left: 60px;
+}
+#participation h3{
+    background-image: url("img/title3.gif");
+    background-repeat: repeat-y;
+    height: 46px;
+    margin-left: -23px;
+}
+#participation li a{
+    text-decoration: none;
+    color: red;
+}
+#participation li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.select{
+    background-image: url("img/designs.gif");
+    height: 46px;
+    width: 192px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.resources{
+    background-image: url("img/resources.gif");
+    height: 46px;
+    width: 192px;
+    margin-left: 15px;
+}
+#linkList{
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 420px;
+}
+#lselect li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#lselect ul{
+    width: 70%;
+    margin-left: 10px;
+}
+#lresources li a{
+    text-decoration: none;
+    color: red;
+}
+#lresources li{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+#lresources ul{
+    margin-left: 10px;
+}
